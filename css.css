@@ -1,0 +1,131 @@
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+html, body{
+  margin:0; padding:0; box-sizing:border-box; clear:both;
+  font-family: 'Inter', sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg, .bgcurve, .bgquote{
+  position: absolute;
+  z-index: 1;
+}
+.bg{
+  width: 36rem;
+  margin-left: 15.5rem;
+}
+.bgcurve{
+  margin-top: 17.52rem;
+  margin-left: -21rem;
+}
+.bgquote{
+  margin-left: -21rem;
+  margin-top: -7rem;
+}
+.text0{
+  width: 34rem;
+  position: absolute;
+  z-index: 3;
+  margin-right: 25rem;
+}
+.saying0{
+  font-size: 1.7rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+.name0andcareer0{
+  display: flex;
+}
+.name0{
+  color:hsl(240, 38%, 20%);
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.career0{
+  color:hsl(240, 18%, 77%);
+}
+.name0, .career0{
+  font-size: 1.3rem;
+}
+.photo0{
+  position: absolute;
+  z-index: 2;
+  margin-left: 15rem;
+  width: 28rem;
+  border-radius: 5px;
+  box-shadow: 0px 15px 30px 5px rgba(88, 88, 88, 0.274);
+}
+.arrow{
+  position: absolute;
+  z-index: 4;
+  margin-left: 13rem;
+  margin-top: 28rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30% / 50%;
+  width: 6rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.arrow > img{
+  height: 1.2rem;
+}
+@media screen and (max-width:1439px){
+  html{
+    font-size: 8px;
+  }
+  .bg{
+    margin-left: 0rem;
+    margin-top: -15rem;
+    width: 34rem;
+  }
+  .bgcurve{
+    margin-top: 27rem;
+    margin-left: -7rem;
+    width: 40rem;
+  }
+  .bgquote{
+    margin-left: 0rem;
+    margin-top: 5rem;
+    width: 6rem;
+  }
+  .text0{
+    margin: 30rem 0 0 0rem;
+    text-align: center;
+  }
+  .saying0{
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .name0andcareer0{
+    flex-direction: column;
+  }
+  .name0{
+    margin: 0 0 0.5rem 0;
+  }
+  .photo0{
+    margin-left: 0rem;
+    margin-top: -14rem;
+    width: 26rem;
+  }
+  .arrow{
+    margin-left: 0rem;
+    margin-top: -1.5rem;
+    width: 8rem;
+    height: 4rem;
+  }
+}
